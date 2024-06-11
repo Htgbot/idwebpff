@@ -6,7 +6,7 @@ with open('alldat.json', 'r') as file:
     data = json.load(file)
 
 # Specify the folder where the images are stored
-image_folder = '.webp'
+image_folder = 'webp'
 
 # Iterate over the items in the JSON data
 for icon_name, item_id in data.items():
