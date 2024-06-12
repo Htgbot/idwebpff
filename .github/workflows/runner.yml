@@ -24,5 +24,4 @@ jobs:
         # For example, using curl or wget
     - name: Run renamer.py
       run: python renamer.py
-      env:
         # Set environment variables if your script requires them
