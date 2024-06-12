@@ -18,5 +18,11 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Download images
+      run: |
+        # Add commands to download your images here
+        # For example, using curl or wget
     - name: Run renamer.py
       run: python renamer.py
+      env:
+        # Set environment variables if your script requires them
